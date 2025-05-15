@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Poland Updates</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f9f9f9;
+      color: #1e1e1e;
+    }
+
+    header {
+      background: #d62828;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+
+    nav {
+      background-color: #003049;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 1rem 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #fcbf49;
+    }
+
+    .hero {
+      background: url('https://source.unsplash.com/1600x600/?warsaw,poland') center/cover no-repeat;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+      text-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+
+    .section-title {
+      font-size: 1.8rem;
+      color: #003049;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      color: #d62828;
+      margin-bottom: 0.5rem;
+    }
+
+    .card p {
+      color: #333;
+      line-height: 1.5;
+    }
+
+    .about {
+      margin-top: 4rem;
+      background-color: #edf2f4;
+      padding: 2rem;
+      border-left: 5px solid #d62828;
+      border-radius: 6px;
+    }
+
+    .about h2 {
+      color: #d62828;
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      background: #003049;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Poland Updates</h1>
+    <p>Your Trusted Source for News and Events Across Poland</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Politics</a>
+    <a href="#">Economy</a>
+    <a href="#">Culture</a>
+    <a href="#">Travel</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="hero">
+    Breaking Stories & Daily Reports from Warsaw to Krakow
+  </div>
+
+  <main>
+    <h2 class="section-title">Top Stories</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Polish Elections 2025: What You Need to Know</h3>
+        <p>As Poland gears up for its national elections, here's an overview of key players, policy proposals, and public opinion trends.</p>
+      </div>
+      <div class="card">
+        <h3>Economic Growth Surges Despite Global Slowdown</h3>
+        <p>Poland's GDP shows resilience as exports rise and domestic consumption remains strong. Analysts weigh in on 2025 projections.</p>
+      </div>
+      <div class="card">
+        <h3>Exploring Lesser-Known Polish Destinations</h3>
+        <p>From the Bieszczady Mountains to medieval towns in the north, here are hidden gems waiting to be discovered this summer.</p>
+      </div>
+    </div>
+
+    <div class="about">
+      <h2>About Poland Updates</h2>
+      <p><strong>Poland Updates</strong> delivers reliable, timely, and in-depth reporting on key developments in Poland. We cover everything from politics and business to culture and travel, with a special focus on clarity, accuracy, and relevance for both local and international readers.</p>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Poland Updates. All rights reserved. | Contact: editor@polandupdates.com
+  </footer>
+
+</body>
+</html>
